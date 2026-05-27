@@ -43,7 +43,7 @@ The admin dashboard (`/admin`) is a hidden, separately authenticated view for re
 | Notifications | react-hot-toast |
 | Date logic | date-fns |
 | Charts (admin) | recharts |
-| Icons | Tabler Icons |
+| Icons | Font Awesome |
 
 ### Backend
 | Layer | Technology |
@@ -64,6 +64,33 @@ The admin dashboard (`/admin`) is a hidden, separately authenticated view for re
 |---|---|
 | Database | MongoDB (Mongoose ODM) |
 | Hosting | MongoDB Atlas free tier |
+
+### Approved UI Component & Asset Libraries
+Where ever any asset or library is used, they must ONLY come from the following approved lists:
+
+**UI Component Libraries**
+- **shadcn/ui** (Copy & Paste Registry) - https://shadcn.com
+- **Mantine UI** (Full-Featured Framework) - https://mantine.dev
+- **daisyUI** (Tailwind CSS Plugin) - https://daisyui.com
+- **HeroUI** (React Component Library) - https://heroui.com
+- **Material UI (MUI)** (Enterprise Framework) - https://mui.com
+
+**Assets & Creative Libraries**
+- **UIverse** (Open-Source UI Elements) - https://uiverse.io
+- **Figma Community** (Design Assets & Kits) - https://figma.com
+- **Font Awesome** (Vector Icons) - https://fontawesome.com
+- **Unsplash** (Stock Images) - https://unsplash.com
+- **Google Fonts** (Typography) - https://fonts.google.com
+
+**Images & Placeholders**
+Use **Lorem Picsum** (https://picsum.photos) for any placeholder images.
+- Basic usage: `https://picsum.photos/200/300` (width/height)
+- Square image: `https://picsum.photos/200`
+- Specific image: `https://picsum.photos/id/237/200/300`
+- Static random image: `https://picsum.photos/seed/picsum/200/300`
+- Grayscale: `https://picsum.photos/200/300?grayscale`
+- Blurred: `https://picsum.photos/200/300/?blur` (optional ?blur=2)
+- Formats available: `.jpg`, `.webp` extensions work.
 
 Do not introduce new major libraries without a strong reason. Ask before installing anything new.
 

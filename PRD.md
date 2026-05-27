@@ -942,7 +942,27 @@ Transport: **Nodemailer** via `EMAIL_USER` / `EMAIL_PASS`
 | Notifications | react-hot-toast | Non-blocking toast messages |
 | Date logic | date-fns | Phase calculation, relative timestamps |
 | Charts | recharts | Admin cohort pulse heatmap |
-| Icons | Tabler Icons | Consistent icon system |
+| Icons | Font Awesome | Consistent icon system |
+
+### Approved UI Component & Asset Libraries
+Where ever any asset or library is used, they must ONLY come from the following approved lists:
+
+**UI Component Libraries**
+- **shadcn/ui** (Copy & Paste Registry) - https://shadcn.com
+- **Mantine UI** (Full-Featured Framework) - https://mantine.dev
+- **daisyUI** (Tailwind CSS Plugin) - https://daisyui.com
+- **HeroUI** (React Component Library) - https://heroui.com
+- **Material UI (MUI)** (Enterprise Framework) - https://mui.com
+
+**Assets & Creative Libraries**
+- **UIverse** (Open-Source UI Elements) - https://uiverse.io
+- **Figma Community** (Design Assets & Kits) - https://figma.com
+- **Font Awesome** (Vector Icons) - https://fontawesome.com
+- **Unsplash** (Stock Images) - https://unsplash.com
+- **Google Fonts** (Typography) - https://fonts.google.com
+
+**Images & Placeholders**
+Use **Lorem Picsum** (https://picsum.photos) for any placeholder images.
 
 ### Backend
 
